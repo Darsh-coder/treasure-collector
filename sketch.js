@@ -104,7 +104,7 @@ function draw() {
 }
 
 function createCash() {
-  if (World.frameCount % 200 == 0) {
+  if (World.frameCount % 150 == 0) {
   var cash = createSprite(Math.round(random(50, width-50),40, 10, 10));
   cash.addImage(cashImg);
   cash.scale=0.12;
